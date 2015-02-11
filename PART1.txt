@@ -1,0 +1,47 @@
+1)
+There was no test database that came with my installation.  I know I
+told it yes when installing the community server to install the test
+database, but it does not seem to be there.  I was not sure how to
+get it any other way.
+
+2)
+name - char(64) - NOT NULL - Primary key
+ret - tinyint(1) - NOT NULL - Default = 0
+dl - char(128) - NOT NULL
+type - enum('function','aggregate') - NOT NULL - Default = NULL
+
+The table is empty for me.  There were no records.
+
+It it used to store information on user defined functions.
+
+3)
++------------+-----------------------------+------+-----+---------+----------------+
+| Field      | Type                        | Null | Key | Default | Extra          |
++------------+-----------------------------+------+-----+---------+----------------+
+| id         | int(11)                     | NO   | PRI | NULL    | auto_increment |
+| name       | varchar(15)                 | NO   |     | NULL    |                |
+| population | int(11)                     | YES  |     | NULL    |                |
+| crime_rate | enum('low','medium','high') | YES  |     | NULL    |                |
+| capital    | varchar(15)                 | NO   |     | NULL    |                |
++------------+-----------------------------+------+-----+---------+----------------+
+
++----+-------------+------------+------------+-------------+
+| id | name        | population | crime_rate | capital     |
++----+-------------+------------+------------+-------------+
+|  8 | colorado    |    4123735 | low        | denver      |
+| 10 | florida     |    1143735 | low        | tallahassee |
+|  7 | california  |     943735 | medium     | sacramento  |
+|  4 | new york    |     500000 | medium     | new york    |
+|  3 | tennessee   |      50000 | high       | memphis     |
+|  6 | arizona     |      45464 | low        | phoenix     |
+|  9 | delaware    |      43735 | high       | dover       |
+|  5 | alaska      |      32434 | low        | juneau      |
+|  2 | arkansas    |        100 | medium     | jackson     |
+|  1 | mississippi |        100 | medium     | jackson     |
++----+-------------+------------+------------+-------------+
+
++-----------------+
+| avg(population) |
++-----------------+
+|     688303.8000 |
++-----------------+

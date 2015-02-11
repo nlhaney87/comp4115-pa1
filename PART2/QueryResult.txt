@@ -1,0 +1,54 @@
++----+----------------+------------+------------+----------------+
+| id | name           | population | crime_rate | capital        |
++----+----------------+------------+------------+----------------+
+| 11 | alabama        |     374536 | high       | montgomery     |
+|  5 | alaska         |      32434 | low        | juneau         |
+|  6 | arizona        |      45464 | low        | phoenix        |
+|  2 | arkansas       |        100 | medium     | jackson        |
+|  7 | california     |     943735 | medium     | sacramento     |
+|  8 | colorado       |    4123735 | low        | denver         |
+| 12 | connecticut    |     548625 | low        | hartford       |
+|  9 | delaware       |      43735 | high       | dover          |
+| 10 | florida        |    1143735 | low        | tallahassee    |
+| 13 | georgia        |      78541 | low        | atlanta        |
+| 14 | hawaii         |      87451 | low        | honolulu       |
+| 15 | idaho          |     874215 | medium     | boise          |
+| 16 | illinois       |     125469 | high       | springfield    |
+| 17 | indiana        |      74841 | medium     | indianapolis   |
+| 18 | iowa           |     458955 | high       | des moines     |
+| 19 | kansas         |      45895 | low        | topeka         |
+| 20 | kentucky       |     362154 | medium     | frankfort      |
+| 21 | louisiana      |      74855 | low        | baton rouge    |
+| 22 | maine          |      45879 | low        | augusta        |
+| 23 | maryland       |       8545 | medium     | annapolis      |
+| 49 | massachusetts  |     542145 | high       | boston         |
+| 24 | michigan       |      45214 | low        | lansing        |
+| 25 | minnesota      |       4575 | low        | saint paul     |
+|  1 | mississippi    |        100 | medium     | jackson        |
+| 50 | missouri       |      21587 | low        | jefferson city |
+| 26 | montana        |        785 | low        | helena         |
+| 27 | nebraska       |      84521 | medium     | lincoln        |
+| 28 | nevada         |       4514 | low        | carson city    |
+| 29 | new hampshire  |     874521 | high       | concord        |
+| 30 | new jersey     |      41254 | high       | trenton        |
+| 31 | new mexico     |      45788 | high       | santa fe       |
+|  4 | new york       |     500000 | medium     | new york       |
+| 32 | north carolina |       6952 | low        | raleigh        |
+| 33 | north dakota   |        125 | medium     | bismarck       |
+| 34 | ohio           |     874621 | low        | columbus       |
+| 35 | oklahoma       |      74125 | medium     | oklahoma city  |
+| 36 | oregon         |       4585 | high       | salem          |
+| 37 | pennsylvania   |      12546 | low        | harrisburg     |
+| 38 | rhode island   |      87954 | medium     | providence     |
+| 39 | south carolina |        784 | low        | columbia       |
+| 40 | south dakota   |     451269 | medium     | pierre         |
+|  3 | tennessee      |      50000 | high       | memphis        |
+| 41 | texas          |      74895 | low        | austin         |
+| 42 | utah           |       4521 | low        | salt lake city |
+| 43 | vermont        |      54585 | medium     | montpelier     |
+| 44 | virginia       |        784 | low        | richmond       |
+| 45 | washington     |      85415 | high       | olympia        |
+| 46 | west virginia  |      78451 | low        | chareston      |
+| 47 | wisconsin      |     451126 | high       | madison        |
+| 48 | wyoming        |     987654 | medium     | cheyenne       |
++----+----------------+------------+------------+----------------+
